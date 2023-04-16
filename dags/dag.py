@@ -1,6 +1,10 @@
 from airflow.models import DAG
-from airflow.operators.bash import BashOperator
+from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
+from rockets import rocket_etl
+from launches import launch_etl
+from launchpad import launchpad_etl
+from landpad import landpad_etl
 
 
 #Airflow Orchestration
@@ -37,30 +41,34 @@ dag_pads = DAG(
 )
 
 #Rocket Task
-fetch_rockets = BashOperator(
+rockets = PythonOperator(
     task_id='rocket',
-    bash_command=' python rockets.py', 
+    python_callable= rocket_etl, 
     dag=dag_rocket
 )
 
 #Launch Task
-fetch_launches = BashOperator(
+launches = PythonOperator(
     task_id='launch',
-    bash_command='python launches.py', 
+    python_callable=launch_etl, 
     dag=dag_launch
 )
 
 #Launchpad Task
-fetch_launchpads = BashOperator(
+launchpads = PythonOperator(
     task_id='launchpad',
-    bash_command='python launchpad.py', 
+    python_callable=launchpad_etl, 
     dag=dag_pads,
 )
 
 #Landpad Task
-fetch_landpads = BashOperator(
+landpads = PythonOperator(
     task_id='landpad',
-    bash_command='python landpad.py', 
+    python_callable=landpad_etl, 
     dag=dag_pads
 )
 
+rockets 
+launches
+launchpads
+landpads
