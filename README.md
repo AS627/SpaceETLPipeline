@@ -3,6 +3,12 @@ This is an ETL pipeline that fetches rocket and launch mission data from SpaceX 
 
 # Setting Up Airflow:
 Follow Documentation provided in https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html 
+
+
 docker compose up airflow-init
+
+
 docker compose up -d
+
+
 docker-compose down -v
