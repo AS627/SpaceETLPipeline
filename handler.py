@@ -7,10 +7,10 @@ import requests
 s3_client = boto3.client('s3')
 
 #Connect to Database
-endpoint = 'my-aeronautics-db.cb95ufq3bxca.us-east-1.rds.amazonaws.com'#os.environ['HOST']
-username = 'admin'#os.environ['USER']
-password = 'password'#os.environ['PASSWORD']
-db_name = 'spaceBDD'#os.environ['NAME']
+endpoint = os.environ['HOST']
+username = os.environ['USER']
+password = os.environ['PASSWORD']
+db_name = os.environ['NAME']
 
 
 connection = pymysql.connect(host=endpoint, user=username,password=password, database=db_name)
