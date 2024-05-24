@@ -1,384 +1,820 @@
-[2023-04-14T21:53:57.283+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
-[2023-04-14T21:53:57.351+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2023-04-14T21:53:57.359+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2023-04-14T21:53:57.366+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
-[2023-04-14T21:53:57.381+0000] {manager.py:739} INFO - There are 0 files in /opt/airflow/dags
-[2023-04-14T21:58:57.687+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
-[2023-04-14T21:58:57.728+0000] {manager.py:739} INFO - There are 1 files in /opt/airflow/dags
-[2023-04-14T21:59:02.549+0000] {manager.py:864} INFO - 
+[2023-04-16T02:13:53.992+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-04-16T02:13:54.010+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-04-16T02:13:54.025+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-04-16T02:13:54.030+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-16T02:13:54.039+0000] {manager.py:739} INFO - There are 0 files in /opt/airflow/dags
+[2023-04-16T02:18:54.914+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-16T02:18:54.970+0000] {manager.py:739} INFO - There are 4 files in /opt/airflow/dags
+[2023-04-16T02:18:57.837+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  2.75s           2023-04-14T21:59:00
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.28s           2023-04-16T02:18:55
+/opt/airflow/dags/dag_launch.py                              0           1  0.23s           2023-04-16T02:18:55
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.31s           2023-04-16T02:18:55
+/opt/airflow/dags/dag_rocket.py                              0           1  0.19s           2023-04-16T02:18:55
 ================================================================================
-[2023-04-14T21:59:32.763+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.35s           2023-04-14T21:59:31
-================================================================================
-[2023-04-14T22:00:03.242+0000] {manager.py:864} INFO - 
+[2023-04-16T02:19:28.726+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.91s           2023-04-14T21:59:57
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.24s           2023-04-16T02:19:26
+/opt/airflow/dags/dag_launch.py                              0           1  0.45s           2023-04-16T02:19:26
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.22s           2023-04-16T02:19:26
+/opt/airflow/dags/dag_rocket.py                              0           1  0.44s           2023-04-16T02:19:26
 ================================================================================
-[2023-04-14T22:00:33.529+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.41s           2023-04-14T22:00:27
-================================================================================
-[2023-04-14T22:01:04.373+0000] {manager.py:864} INFO - 
+[2023-04-16T02:19:58.816+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.34s           2023-04-14T22:00:58
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.51s           2023-04-16T02:19:57
+/opt/airflow/dags/dag_launch.py                              0           1  0.29s           2023-04-16T02:19:57
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.48s           2023-04-16T02:19:57
+/opt/airflow/dags/dag_rocket.py                              0           1  0.31s           2023-04-16T02:19:57
 ================================================================================
-[2023-04-14T22:01:34.809+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.35s           2023-04-14T22:01:28
-================================================================================
-[2023-04-14T22:02:05.233+0000] {manager.py:864} INFO - 
+[2023-04-16T02:20:29.115+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  1.08s           2023-04-14T22:02:00
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.39s           2023-04-16T02:20:28
+/opt/airflow/dags/dag_launch.py       332  0.09s             0           1  0.29s           2023-04-16T02:19:57
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.43s           2023-04-16T02:20:28
+/opt/airflow/dags/dag_rocket.py                              0           1  0.46s           2023-04-16T02:20:28
 ================================================================================
-[2023-04-14T22:02:35.580+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.43s           2023-04-14T22:02:30
-================================================================================
-[2023-04-14T22:03:06.258+0000] {manager.py:864} INFO - 
+[2023-04-16T02:20:59.173+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.37s           2023-04-14T22:03:01
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.48s           2023-04-16T02:20:59
+/opt/airflow/dags/dag_launch.py                              0           1  0.33s           2023-04-16T02:20:29
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.58s           2023-04-16T02:20:59
+/opt/airflow/dags/dag_rocket.py       354  0.02s             0           1  0.46s           2023-04-16T02:20:28
 ================================================================================
-[2023-04-14T22:03:36.856+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.28s           2023-04-14T22:03:32
-================================================================================
-[2023-04-14T22:03:58.001+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
-[2023-04-14T22:03:58.035+0000] {manager.py:739} INFO - There are 1 files in /opt/airflow/dags
-[2023-04-14T22:04:07.313+0000] {manager.py:864} INFO - 
+[2023-04-16T02:21:29.618+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.26s           2023-04-14T22:04:02
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py      374  0.01s             0           1  0.48s           2023-04-16T02:20:59
+/opt/airflow/dags/dag_launch.py                              0           1  0.23s           2023-04-16T02:20:59
+/opt/airflow/dags/dag_launchpad.py    371  0.03s             0           1  0.58s           2023-04-16T02:20:59
+/opt/airflow/dags/dag_rocket.py                              0           1  0.18s           2023-04-16T02:20:59
 ================================================================================
-[2023-04-14T22:04:37.754+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.47s           2023-04-14T22:04:33
-================================================================================
-[2023-04-14T22:05:08.410+0000] {manager.py:864} INFO - 
+[2023-04-16T02:21:59.732+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.26s           2023-04-14T22:05:03
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.32s           2023-04-16T02:21:29
+/opt/airflow/dags/dag_launch.py                              0           1  0.24s           2023-04-16T02:21:30
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.36s           2023-04-16T02:21:29
+/opt/airflow/dags/dag_rocket.py                              0           1  0.21s           2023-04-16T02:21:30
 ================================================================================
-[2023-04-14T22:05:38.874+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.27s           2023-04-14T22:05:34
-================================================================================
-[2023-04-14T22:06:09.440+0000] {manager.py:864} INFO - 
+[2023-04-16T02:22:30.438+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.42s           2023-04-14T22:06:04
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.23s           2023-04-16T02:22:00
+/opt/airflow/dags/dag_launch.py                              0           1  0.24s           2023-04-16T02:22:01
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.21s           2023-04-16T02:22:00
+/opt/airflow/dags/dag_rocket.py                              0           1  0.24s           2023-04-16T02:22:01
 ================================================================================
-[2023-04-14T22:06:39.604+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.50s           2023-04-14T22:06:35
-================================================================================
-[2023-04-14T22:07:10.285+0000] {manager.py:864} INFO - 
+[2023-04-16T02:23:00.453+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.47s           2023-04-14T22:07:06
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.27s           2023-04-16T02:22:31
+/opt/airflow/dags/dag_launch.py                              0           1  0.16s           2023-04-16T02:22:32
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.24s           2023-04-16T02:22:31
+/opt/airflow/dags/dag_rocket.py                              0           1  0.20s           2023-04-16T02:22:31
 ================================================================================
-[2023-04-14T22:07:41.034+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  2.41s           2023-04-14T22:07:39
-================================================================================
-[2023-04-14T22:08:11.546+0000] {manager.py:864} INFO - 
+[2023-04-16T02:23:30.607+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.36s           2023-04-14T22:08:09
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.37s           2023-04-16T02:23:02
+/opt/airflow/dags/dag_launch.py                              0           1  0.39s           2023-04-16T02:23:03
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.32s           2023-04-16T02:23:02
+/opt/airflow/dags/dag_rocket.py                              0           1  0.46s           2023-04-16T02:23:03
 ================================================================================
-[2023-04-14T22:08:41.983+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.36s           2023-04-14T22:08:40
-================================================================================
-[2023-04-14T22:08:58.141+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
-[2023-04-14T22:08:58.166+0000] {manager.py:739} INFO - There are 1 files in /opt/airflow/dags
-[2023-04-14T22:09:12.406+0000] {manager.py:864} INFO - 
+[2023-04-16T02:23:55.395+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-16T02:23:55.457+0000] {manager.py:739} INFO - There are 4 files in /opt/airflow/dags
+[2023-04-16T02:24:01.535+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.38s           2023-04-14T22:09:10
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.33s           2023-04-16T02:23:33
+/opt/airflow/dags/dag_launch.py                              0           1  0.29s           2023-04-16T02:23:34
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.25s           2023-04-16T02:23:33
+/opt/airflow/dags/dag_rocket.py                              0           1  0.35s           2023-04-16T02:23:34
 ================================================================================
-[2023-04-14T22:09:42.968+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.26s           2023-04-14T22:09:41
-================================================================================
-[2023-04-14T22:10:13.436+0000] {manager.py:864} INFO - 
+[2023-04-16T02:24:32.227+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.32s           2023-04-14T22:10:11
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.24s           2023-04-16T02:24:04
+/opt/airflow/dags/dag_launch.py                              0           1  0.18s           2023-04-16T02:24:05
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.28s           2023-04-16T02:24:04
+/opt/airflow/dags/dag_rocket.py                              0           1  0.21s           2023-04-16T02:24:05
 ================================================================================
-[2023-04-14T22:10:44.119+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.45s           2023-04-14T22:10:42
-================================================================================
-[2023-04-14T22:11:16.617+0000] {manager.py:864} INFO - 
+[2023-04-16T02:25:03.088+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py    301  0.43s             3           0  0.45s           2023-04-14T22:10:42
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.39s           2023-04-16T02:24:35
+/opt/airflow/dags/dag_launch.py                              0           1  0.16s           2023-04-16T02:24:35
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.38s           2023-04-16T02:24:35
+/opt/airflow/dags/dag_rocket.py                              0           1  0.16s           2023-04-16T02:24:35
 ================================================================================
-[2023-04-14T22:11:47.047+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  7.71s           2023-04-14T22:11:23
-================================================================================
-[2023-04-14T22:12:17.413+0000] {manager.py:864} INFO - 
+[2023-04-16T02:25:33.843+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.28s           2023-04-14T22:11:54
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.18s           2023-04-16T02:25:06
+/opt/airflow/dags/dag_launch.py                              0           1  0.12s           2023-04-16T02:25:06
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.22s           2023-04-16T02:25:06
+/opt/airflow/dags/dag_rocket.py                              0           1  0.15s           2023-04-16T02:25:06
 ================================================================================
-[2023-04-14T22:12:47.781+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.51s           2023-04-14T22:12:25
-================================================================================
-[2023-04-14T22:13:18.387+0000] {manager.py:864} INFO - 
+[2023-04-16T02:26:04.514+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.30s           2023-04-14T22:12:55
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.26s           2023-04-16T02:25:37
+/opt/airflow/dags/dag_launch.py                              0           1  0.14s           2023-04-16T02:25:37
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.29s           2023-04-16T02:25:37
+/opt/airflow/dags/dag_rocket.py                              0           1  0.15s           2023-04-16T02:25:37
 ================================================================================
-[2023-04-14T22:13:48.964+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.45s           2023-04-14T22:13:26
-================================================================================
-[2023-04-14T22:13:58.387+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
-[2023-04-14T22:13:58.420+0000] {manager.py:739} INFO - There are 1 files in /opt/airflow/dags
-[2023-04-14T22:14:19.568+0000] {manager.py:864} INFO - 
+[2023-04-16T02:26:35.285+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  1.69s           2023-04-14T22:13:58
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.34s           2023-04-16T02:26:07
+/opt/airflow/dags/dag_launch.py                              0           1  0.20s           2023-04-16T02:26:08
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.33s           2023-04-16T02:26:07
+/opt/airflow/dags/dag_rocket.py                              0           1  0.21s           2023-04-16T02:26:08
 ================================================================================
-[2023-04-14T22:14:50.232+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.35s           2023-04-14T22:14:28
-================================================================================
-[2023-04-14T22:15:20.558+0000] {manager.py:864} INFO - 
+[2023-04-16T02:27:05.336+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.37s           2023-04-14T22:14:59
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.28s           2023-04-16T02:26:38
+/opt/airflow/dags/dag_launch.py                              0           1  0.17s           2023-04-16T02:26:39
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.27s           2023-04-16T02:26:38
+/opt/airflow/dags/dag_rocket.py                              0           1  0.31s           2023-04-16T02:26:38
 ================================================================================
-[2023-04-14T22:15:51.103+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  1.22s           2023-04-14T22:15:31
-================================================================================
-[2023-04-14T22:16:21.127+0000] {manager.py:864} INFO - 
+[2023-04-16T02:27:35.872+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.26s           2023-04-14T22:16:07
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.22s           2023-04-16T02:27:09
+/opt/airflow/dags/dag_launch.py                              0           1  0.15s           2023-04-16T02:27:09
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.22s           2023-04-16T02:27:09
+/opt/airflow/dags/dag_rocket.py                              0           1  0.18s           2023-04-16T02:27:09
 ================================================================================
-[2023-04-14T22:16:52.048+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py    512  14.23s            3           0  0.26s           2023-04-14T22:16:07
-================================================================================
-[2023-04-14T22:17:22.488+0000] {manager.py:864} INFO - 
+[2023-04-16T02:28:05.972+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  17.71s          2023-04-14T22:16:55
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.37s           2023-04-16T02:27:40
+/opt/airflow/dags/dag_launch.py                              0           1  0.19s           2023-04-16T02:27:40
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.42s           2023-04-16T02:27:40
+/opt/airflow/dags/dag_rocket.py                              0           1  0.21s           2023-04-16T02:27:40
 ================================================================================
-[2023-04-14T22:17:53.067+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  1.32s           2023-04-14T22:17:26
-================================================================================
-[2023-04-14T22:18:23.224+0000] {manager.py:864} INFO - 
+[2023-04-16T02:28:36.947+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.50s           2023-04-14T22:17:57
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.33s           2023-04-16T02:28:11
+/opt/airflow/dags/dag_launch.py                              0           1  0.19s           2023-04-16T02:28:11
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.36s           2023-04-16T02:28:11
+/opt/airflow/dags/dag_rocket.py                              0           1  0.20s           2023-04-16T02:28:11
 ================================================================================
-[2023-04-14T22:18:53.543+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.36s           2023-04-14T22:18:28
-================================================================================
-[2023-04-14T22:18:58.583+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
-[2023-04-14T22:18:58.610+0000] {manager.py:739} INFO - There are 1 files in /opt/airflow/dags
-[2023-04-14T22:19:24.051+0000] {manager.py:864} INFO - 
+[2023-04-16T02:28:55.675+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-16T02:28:55.723+0000] {manager.py:739} INFO - There are 4 files in /opt/airflow/dags
+[2023-04-16T02:29:07.870+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.26s           2023-04-14T22:18:58
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.27s           2023-04-16T02:28:42
+/opt/airflow/dags/dag_launch.py                              0           1  0.24s           2023-04-16T02:28:42
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.23s           2023-04-16T02:28:42
+/opt/airflow/dags/dag_rocket.py                              0           1  0.25s           2023-04-16T02:28:42
 ================================================================================
-[2023-04-14T22:19:54.319+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.25s           2023-04-14T22:19:29
-================================================================================
-[2023-04-14T22:20:24.899+0000] {manager.py:864} INFO - 
+[2023-04-16T02:29:37.896+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.39s           2023-04-14T22:19:59
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.31s           2023-04-16T02:29:13
+/opt/airflow/dags/dag_launch.py                              0           1  0.22s           2023-04-16T02:29:13
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.34s           2023-04-16T02:29:13
+/opt/airflow/dags/dag_rocket.py                              0           1  0.18s           2023-04-16T02:29:13
 ================================================================================
-[2023-04-14T22:20:55.239+0000] {manager.py:864} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.37s           2023-04-14T22:20:30
-================================================================================
-[2023-04-14T22:21:25.794+0000] {manager.py:864} INFO - 
+[2023-04-16T02:30:08.480+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.28s           2023-04-14T22:21:00
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.31s           2023-04-16T02:29:44
+/opt/airflow/dags/dag_launch.py                              0           1  0.18s           2023-04-16T02:29:44
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.32s           2023-04-16T02:29:44
+/opt/airflow/dags/dag_rocket.py                              0           1  0.19s           2023-04-16T02:29:44
 ================================================================================
-[2023-04-14T22:21:56.334+0000] {manager.py:864} INFO - 
+[2023-04-16T02:30:39.130+0000] {manager.py:864} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag.py                           3           0  0.34s           2023-04-14T22:21:31
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.19s           2023-04-16T02:30:14
+/opt/airflow/dags/dag_launch.py                              0           1  0.14s           2023-04-16T02:30:15
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.22s           2023-04-16T02:30:14
+/opt/airflow/dags/dag_rocket.py                              0           1  0.21s           2023-04-16T02:30:14
 ================================================================================
-[2023-04-14T22:22:00.821+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-16T02:31:09.708+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.21s           2023-04-16T02:30:45
+/opt/airflow/dags/dag_launch.py                              0           1  0.15s           2023-04-16T02:30:45
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.20s           2023-04-16T02:30:45
+/opt/airflow/dags/dag_rocket.py                              0           1  0.14s           2023-04-16T02:30:45
+================================================================================
+[2023-04-16T02:31:40.299+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.21s           2023-04-16T02:31:15
+/opt/airflow/dags/dag_launch.py                              0           1  0.17s           2023-04-16T02:31:16
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.19s           2023-04-16T02:31:15
+/opt/airflow/dags/dag_rocket.py                              0           1  0.15s           2023-04-16T02:31:16
+================================================================================
+[2023-04-16T02:32:10.934+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.21s           2023-04-16T02:31:46
+/opt/airflow/dags/dag_launch.py                              0           1  0.19s           2023-04-16T02:31:46
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.19s           2023-04-16T02:31:46
+/opt/airflow/dags/dag_rocket.py                              0           1  0.19s           2023-04-16T02:31:46
+================================================================================
+[2023-04-16T02:32:41.508+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.20s           2023-04-16T02:32:17
+/opt/airflow/dags/dag_launch.py                              0           1  0.16s           2023-04-16T02:32:17
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.20s           2023-04-16T02:32:17
+/opt/airflow/dags/dag_rocket.py                              0           1  0.14s           2023-04-16T02:32:17
+================================================================================
+[2023-04-16T02:33:12.152+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.20s           2023-04-16T02:32:47
+/opt/airflow/dags/dag_launch.py                              0           1  0.19s           2023-04-16T02:32:47
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.16s           2023-04-16T02:32:47
+/opt/airflow/dags/dag_rocket.py                              0           1  0.22s           2023-04-16T02:32:47
+================================================================================
+[2023-04-16T02:33:42.795+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.19s           2023-04-16T02:33:18
+/opt/airflow/dags/dag_launch.py                              0           1  0.21s           2023-04-16T02:33:18
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.17s           2023-04-16T02:33:18
+/opt/airflow/dags/dag_rocket.py                              0           1  0.22s           2023-04-16T02:33:18
+================================================================================
+[2023-04-16T02:33:56.232+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-16T02:33:56.266+0000] {manager.py:739} INFO - There are 4 files in /opt/airflow/dags
+[2023-04-16T02:34:13.474+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.18s           2023-04-16T02:33:49
+/opt/airflow/dags/dag_launch.py                              0           1  0.12s           2023-04-16T02:33:49
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.20s           2023-04-16T02:33:49
+/opt/airflow/dags/dag_rocket.py                              0           1  0.14s           2023-04-16T02:33:49
+================================================================================
+[2023-04-16T02:34:40.730+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-04-16T04:07:50.595+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-04-16T04:07:50.613+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-04-16T04:07:50.616+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-04-16T04:07:50.623+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-16T04:07:50.790+0000] {manager.py:739} INFO - There are 4 files in /opt/airflow/dags
+[2023-04-16T04:07:51.620+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_landpad.py      165  0.63s             0           0
+/opt/airflow/dags/dag_launch.py                              0           0
+/opt/airflow/dags/dag_launchpad.py    166  0.59s             0           0
+/opt/airflow/dags/dag_rocket.py                              0           0
+================================================================================
+[2023-04-16T04:08:21.866+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py      193  0.03s             0           1  0.82s           2023-04-16T04:07:51
+/opt/airflow/dags/dag_launch.py                              0           1  0.35s           2023-04-16T04:07:52
+/opt/airflow/dags/dag_launchpad.py    196  0.02s             0           1  0.75s           2023-04-16T04:07:51
+/opt/airflow/dags/dag_rocket.py                              0           1  0.23s           2023-04-16T04:07:52
+================================================================================
+[2023-04-16T04:08:52.570+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py      219  0.02s             0           1  0.26s           2023-04-16T04:08:22
+/opt/airflow/dags/dag_launch.py                              0           1  0.21s           2023-04-16T04:08:23
+/opt/airflow/dags/dag_launchpad.py    222  0.01s             0           1  0.25s           2023-04-16T04:08:22
+/opt/airflow/dags/dag_rocket.py                              0           1  0.21s           2023-04-16T04:08:23
+================================================================================
+[2023-04-16T04:09:23.240+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py      246  0.02s             0           1  0.28s           2023-04-16T04:08:52
+/opt/airflow/dags/dag_launch.py                              0           1  0.21s           2023-04-16T04:08:54
+/opt/airflow/dags/dag_launchpad.py    249  0.01s             0           1  0.29s           2023-04-16T04:08:52
+/opt/airflow/dags/dag_rocket.py                              0           1  0.21s           2023-04-16T04:08:54
+================================================================================
+[2023-04-16T04:09:53.983+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py      273  0.02s             0           1  0.27s           2023-04-16T04:09:23
+/opt/airflow/dags/dag_launch.py                              0           1  0.20s           2023-04-16T04:09:24
+/opt/airflow/dags/dag_launchpad.py    276  0.01s             0           1  0.27s           2023-04-16T04:09:23
+/opt/airflow/dags/dag_rocket.py                              0           1  0.17s           2023-04-16T04:09:24
+================================================================================
+[2023-04-16T04:10:24.525+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py      300  0.02s             0           1  0.36s           2023-04-16T04:09:54
+/opt/airflow/dags/dag_launch.py                              0           1  0.22s           2023-04-16T04:09:55
+/opt/airflow/dags/dag_launchpad.py    303  0.01s             0           1  0.35s           2023-04-16T04:09:54
+/opt/airflow/dags/dag_rocket.py                              0           1  0.23s           2023-04-16T04:09:55
+================================================================================
+[2023-04-16T04:10:55.115+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py      327  0.04s             0           1  0.17s           2023-04-16T04:10:24
+/opt/airflow/dags/dag_launch.py                              0           1  0.15s           2023-04-16T04:10:25
+/opt/airflow/dags/dag_launchpad.py    330  0.02s             0           1  0.15s           2023-04-16T04:10:24
+/opt/airflow/dags/dag_rocket.py                              0           1  0.18s           2023-04-16T04:10:25
+================================================================================
+[2023-04-16T04:11:25.583+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py      355  0.02s             0           1  0.20s           2023-04-16T04:10:55
+/opt/airflow/dags/dag_launch.py                              0           1  0.20s           2023-04-16T04:10:56
+/opt/airflow/dags/dag_launchpad.py    358  0.01s             0           1  0.23s           2023-04-16T04:10:55
+/opt/airflow/dags/dag_rocket.py                              0           1  0.18s           2023-04-16T04:10:56
+================================================================================
+[2023-04-16T04:11:56.386+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py      382  0.02s             0           1  0.18s           2023-04-16T04:11:25
+/opt/airflow/dags/dag_launch.py                              0           1  0.40s           2023-04-16T04:11:27
+/opt/airflow/dags/dag_launchpad.py    385  0.01s             0           1  0.16s           2023-04-16T04:11:25
+/opt/airflow/dags/dag_rocket.py                              0           1  0.43s           2023-04-16T04:11:27
+================================================================================
+[2023-04-16T04:12:27.075+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py      409  0.03s             0           1  0.22s           2023-04-16T04:11:56
+/opt/airflow/dags/dag_launch.py                              0           1  0.21s           2023-04-16T04:11:57
+/opt/airflow/dags/dag_launchpad.py    412  0.01s             0           1  0.23s           2023-04-16T04:11:56
+/opt/airflow/dags/dag_rocket.py                              0           1  0.22s           2023-04-16T04:11:57
+================================================================================
+[2023-04-16T04:12:50.666+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-16T04:12:50.752+0000] {manager.py:739} INFO - There are 4 files in /opt/airflow/dags
+[2023-04-16T04:12:58.227+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py      443  0.30s             0           1  0.24s           2023-04-16T04:12:27
+/opt/airflow/dags/dag_launch.py                              0           1  0.25s           2023-04-16T04:12:28
+/opt/airflow/dags/dag_launchpad.py    444  0.03s             0           1  0.19s           2023-04-16T04:12:27
+/opt/airflow/dags/dag_rocket.py                              0           1  0.25s           2023-04-16T04:12:28
+================================================================================
+[2023-04-16T04:13:28.673+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.98s           2023-04-16T04:12:58
+/opt/airflow/dags/dag_launch.py                              0           1  0.52s           2023-04-16T04:12:59
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.79s           2023-04-16T04:12:58
+/opt/airflow/dags/dag_rocket.py                              0           1  0.48s           2023-04-16T04:12:59
+================================================================================
+[2023-04-16T04:13:59.288+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.17s           2023-04-16T04:13:29
+/opt/airflow/dags/dag_launch.py                              0           1  0.15s           2023-04-16T04:13:30
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.18s           2023-04-16T04:13:29
+/opt/airflow/dags/dag_rocket.py                              0           1  0.14s           2023-04-16T04:13:30
+================================================================================
+[2023-04-16T04:14:29.827+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.18s           2023-04-16T04:14:00
+/opt/airflow/dags/dag_launch.py                              0           1  0.15s           2023-04-16T04:14:00
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.19s           2023-04-16T04:14:00
+/opt/airflow/dags/dag_rocket.py                              0           1  0.16s           2023-04-16T04:14:00
+================================================================================
+[2023-04-16T04:15:00.312+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.15s           2023-04-16T04:14:30
+/opt/airflow/dags/dag_launch.py                              0           1  0.12s           2023-04-16T04:14:31
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.16s           2023-04-16T04:14:31
+/opt/airflow/dags/dag_rocket.py                              0           1  0.12s           2023-04-16T04:14:31
+================================================================================
+[2023-04-16T04:15:30.857+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.15s           2023-04-16T04:15:01
+/opt/airflow/dags/dag_launch.py                              0           1  0.16s           2023-04-16T04:15:01
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.18s           2023-04-16T04:15:01
+/opt/airflow/dags/dag_rocket.py                              0           1  0.16s           2023-04-16T04:15:01
+================================================================================
+[2023-04-16T04:16:01.468+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.17s           2023-04-16T04:15:32
+/opt/airflow/dags/dag_launch.py                              0           1  0.12s           2023-04-16T04:15:32
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.15s           2023-04-16T04:15:32
+/opt/airflow/dags/dag_rocket.py                              0           1  0.14s           2023-04-16T04:15:32
+================================================================================
+[2023-04-16T04:16:32.081+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.18s           2023-04-16T04:16:02
+/opt/airflow/dags/dag_launch.py                              0           1  0.21s           2023-04-16T04:16:02
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.21s           2023-04-16T04:16:02
+/opt/airflow/dags/dag_rocket.py                              0           1  0.19s           2023-04-16T04:16:02
+================================================================================
+[2023-04-16T04:17:02.630+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.16s           2023-04-16T04:16:33
+/opt/airflow/dags/dag_launch.py                              0           1  0.13s           2023-04-16T04:16:33
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.18s           2023-04-16T04:16:33
+/opt/airflow/dags/dag_rocket.py                              0           1  0.12s           2023-04-16T04:16:33
+================================================================================
+[2023-04-16T04:17:33.333+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.28s           2023-04-16T04:17:03
+/opt/airflow/dags/dag_launch.py                              0           1  0.14s           2023-04-16T04:17:04
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.25s           2023-04-16T04:17:03
+/opt/airflow/dags/dag_rocket.py                              0           1  0.18s           2023-04-16T04:17:04
+================================================================================
+[2023-04-16T04:17:50.760+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-16T04:17:50.811+0000] {manager.py:739} INFO - There are 4 files in /opt/airflow/dags
+[2023-04-16T04:18:04.029+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.16s           2023-04-16T04:17:34
+/opt/airflow/dags/dag_launch.py                              0           1  0.12s           2023-04-16T04:17:34
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.17s           2023-04-16T04:17:34
+/opt/airflow/dags/dag_rocket.py                              0           1  0.13s           2023-04-16T04:17:34
+================================================================================
+[2023-04-16T04:18:34.588+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.22s           2023-04-16T04:18:05
+/opt/airflow/dags/dag_launch.py                              0           1  0.11s           2023-04-16T04:18:05
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.20s           2023-04-16T04:18:05
+/opt/airflow/dags/dag_rocket.py                              0           1  0.14s           2023-04-16T04:18:05
+================================================================================
+[2023-04-16T04:19:05.417+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.18s           2023-04-16T04:18:35
+/opt/airflow/dags/dag_launch.py                              0           1  0.15s           2023-04-16T04:18:35
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.19s           2023-04-16T04:18:35
+/opt/airflow/dags/dag_rocket.py                              0           1  0.19s           2023-04-16T04:18:36
+================================================================================
+[2023-04-16T04:19:35.997+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.29s           2023-04-16T04:19:06
+/opt/airflow/dags/dag_launch.py                              0           1  0.19s           2023-04-16T04:19:06
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.31s           2023-04-16T04:19:06
+/opt/airflow/dags/dag_rocket.py                              0           1  1.86s           2023-04-16T04:19:08
+================================================================================
+[2023-04-16T04:20:06.633+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.21s           2023-04-16T04:19:37
+/opt/airflow/dags/dag_launch.py                              0           1  0.13s           2023-04-16T04:19:37
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.20s           2023-04-16T04:19:37
+/opt/airflow/dags/dag_rocket.py                              0           1  0.29s           2023-04-16T04:19:39
+================================================================================
+[2023-04-16T04:20:37.244+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.16s           2023-04-16T04:20:07
+/opt/airflow/dags/dag_launch.py                              0           1  0.14s           2023-04-16T04:20:07
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.18s           2023-04-16T04:20:07
+/opt/airflow/dags/dag_rocket.py                              0           1  0.15s           2023-04-16T04:20:10
+================================================================================
+[2023-04-16T04:21:07.813+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.18s           2023-04-16T04:20:38
+/opt/airflow/dags/dag_launch.py                              0           1  0.15s           2023-04-16T04:20:38
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.20s           2023-04-16T04:20:38
+/opt/airflow/dags/dag_rocket.py                              0           1  0.15s           2023-04-16T04:20:40
+================================================================================
+[2023-04-16T04:21:38.487+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.26s           2023-04-16T04:21:09
+/opt/airflow/dags/dag_launch.py                              0           1  0.16s           2023-04-16T04:21:09
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.27s           2023-04-16T04:21:09
+/opt/airflow/dags/dag_rocket.py                              0           1  0.23s           2023-04-16T04:21:11
+================================================================================
+[2023-04-16T04:22:08.900+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.17s           2023-04-16T04:21:39
+/opt/airflow/dags/dag_launch.py                              0           1  0.20s           2023-04-16T04:21:39
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.18s           2023-04-16T04:21:39
+/opt/airflow/dags/dag_rocket.py                              0           1  0.15s           2023-04-16T04:21:41
+================================================================================
+[2023-04-16T04:22:39.533+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.17s           2023-04-16T04:22:10
+/opt/airflow/dags/dag_launch.py                              0           1  0.12s           2023-04-16T04:22:10
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.18s           2023-04-16T04:22:10
+/opt/airflow/dags/dag_rocket.py                              0           1  0.12s           2023-04-16T04:22:12
+================================================================================
+[2023-04-16T04:22:51.022+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-16T04:22:51.080+0000] {manager.py:739} INFO - There are 4 files in /opt/airflow/dags
+[2023-04-16T04:23:10.276+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.19s           2023-04-16T04:22:40
+/opt/airflow/dags/dag_launch.py                              0           1  0.15s           2023-04-16T04:22:40
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.16s           2023-04-16T04:22:40
+/opt/airflow/dags/dag_rocket.py                              0           1  0.42s           2023-04-16T04:22:43
+================================================================================
+[2023-04-16T04:23:40.869+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.30s           2023-04-16T04:23:11
+/opt/airflow/dags/dag_launch.py                              0           1  0.39s           2023-04-16T04:23:11
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.32s           2023-04-16T04:23:11
+/opt/airflow/dags/dag_rocket.py                              0           1  0.28s           2023-04-16T04:23:13
+================================================================================
+[2023-04-16T04:24:11.387+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.24s           2023-04-16T04:23:42
+/opt/airflow/dags/dag_launch.py                              0           1  0.22s           2023-04-16T04:23:42
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.25s           2023-04-16T04:23:42
+/opt/airflow/dags/dag_rocket.py                              0           1  0.16s           2023-04-16T04:23:44
+================================================================================
+[2023-04-16T04:24:41.619+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.22s           2023-04-16T04:24:12
+/opt/airflow/dags/dag_launch.py                              0           1  0.12s           2023-04-16T04:24:12
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.19s           2023-04-16T04:24:12
+/opt/airflow/dags/dag_rocket.py                              0           1  0.31s           2023-04-16T04:24:14
+================================================================================
+[2023-04-16T04:25:11.667+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.26s           2023-04-16T04:24:42
+/opt/airflow/dags/dag_launch.py                              0           1  0.16s           2023-04-16T04:24:43
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.27s           2023-04-16T04:24:42
+/opt/airflow/dags/dag_rocket.py                              0           1  0.30s           2023-04-16T04:24:45
+================================================================================
+[2023-04-16T04:25:42.611+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.20s           2023-04-16T04:25:13
+/opt/airflow/dags/dag_launch.py                              0           1  0.18s           2023-04-16T04:25:14
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.17s           2023-04-16T04:25:13
+/opt/airflow/dags/dag_rocket.py                              0           1  0.17s           2023-04-16T04:25:16
+================================================================================
+[2023-04-16T04:26:13.573+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.67s           2023-04-16T04:25:45
+/opt/airflow/dags/dag_launch.py                              0           1  0.55s           2023-04-16T04:25:45
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.68s           2023-04-16T04:25:45
+/opt/airflow/dags/dag_rocket.py                              0           1  0.55s           2023-04-16T04:25:47
+================================================================================
+[2023-04-16T04:26:44.136+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.16s           2023-04-16T04:26:15
+/opt/airflow/dags/dag_launch.py                              0           1  0.11s           2023-04-16T04:26:16
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.16s           2023-04-16T04:26:15
+/opt/airflow/dags/dag_rocket.py                              0           1  0.14s           2023-04-16T04:26:17
+================================================================================
+[2023-04-16T04:27:14.212+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.16s           2023-04-16T04:26:46
+/opt/airflow/dags/dag_launch.py                              0           1  0.16s           2023-04-16T04:26:47
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.19s           2023-04-16T04:26:46
+/opt/airflow/dags/dag_rocket.py                              0           1  0.15s           2023-04-16T04:26:48
+================================================================================
+[2023-04-16T04:27:44.809+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.23s           2023-04-16T04:27:17
+/opt/airflow/dags/dag_launch.py                              0           1  0.13s           2023-04-16T04:27:18
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.24s           2023-04-16T04:27:17
+/opt/airflow/dags/dag_rocket.py                              0           1  0.12s           2023-04-16T04:27:19
+================================================================================
+[2023-04-16T04:27:51.247+0000] {manager.py:736} INFO - Searching for files in /opt/airflow/dags
+[2023-04-16T04:27:51.314+0000] {manager.py:739} INFO - There are 4 files in /opt/airflow/dags
+[2023-04-16T04:28:15.538+0000] {manager.py:864} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_landpad.py                             0           1  0.30s           2023-04-16T04:27:48
+/opt/airflow/dags/dag_launch.py                              0           1  0.24s           2023-04-16T04:27:49
+/opt/airflow/dags/dag_launchpad.py                           0           1  0.29s           2023-04-16T04:27:48
+/opt/airflow/dags/dag_rocket.py                              0           1  0.15s           2023-04-16T04:27:50
+================================================================================
+[2023-04-16T04:28:33.393+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

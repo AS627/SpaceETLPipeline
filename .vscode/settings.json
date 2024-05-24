@@ -1,0 +1,17 @@
+{
+	"sqltools.connections": [
+		{
+			"mysqlOptions": {
+				"authProtocol": "default",
+				"enableSsl": "Disabled"
+			},
+			"previewLimit": 50,
+			"server": "spacebdd.clca4ugmwk5c.us-east-1.rds.amazonaws.com",
+			"port": 3306,
+			"driver": "MySQL",
+			"name": "spaceXETL",
+			"database": "spacebdd",
+			"username": "admin"
+		}
+	]
+}
