@@ -22,7 +22,3 @@ resources:
 
 plugins:
   - serverless-plugin-log
-
-hooks:
-  after:deploy:finalize:
-    - log: "Custom bucket name is: ${self:custom.fileUploadBucketName}"
