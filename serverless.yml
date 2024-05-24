@@ -7,7 +7,7 @@ provider:
   region: us-east-1
 
   custom:
-    fileUploadBucketName: $(self:service)-bucket-${self:provider.stage}
+    fileUploadBucketName: ${self:service}-bucket-${self:provider.stage}
 
   resources:
     Resources:
