@@ -24,9 +24,6 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Install serverless-plugin-log
-        run: yarn add serverless-plugin-log
-
       - name: Print environment variables
         run: printenv
 

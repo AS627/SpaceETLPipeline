@@ -19,6 +19,3 @@ resources:
       Properties:
         BucketName: ${self:custom.fileUploadBucketName}
         AccessControl: PublicRead
-
-plugins:
-  - serverless-plugin-log
