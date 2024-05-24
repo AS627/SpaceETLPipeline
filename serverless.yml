@@ -5,6 +5,9 @@ provider:
   runtime: nodejs20.x
   stage: dev
   region: us-east-1
+  environment:
+    AWS_ACCESS_KEY_ID: ${env:AWS_ACCESS_KEY_ID}
+    AWS_SECRET_ACCESS_KEY: ${env:AWS_SECRET_ACCESS_KEY}
 
   custom:
     fileUploadBucketName: ${self:service}-bucket-${self:provider.stage}
