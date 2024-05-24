@@ -9,13 +9,20 @@ provider:
     AWS_ACCESS_KEY_ID: ${env:AWS_ACCESS_KEY_ID}
     AWS_SECRET_ACCESS_KEY: ${env:AWS_SECRET_ACCESS_KEY}
 
-  custom:
-    fileUploadBucketName: ${self:service}-bucket-${self:provider.stage}
+custom:
+  fileUploadBucketName: ${self:service}-bucket-${self:provider.stage}
 
-  resources:
-    Resources:
-      FileBucket:
-        Type: AWS::S3::Bucket
-        Properties: 
-          BucketName: ${self:custom.fileUploadBucketName}
-          AccessControl: PublicRead
+resources:
+  Resources:
+    FileBucket:
+      Type: AWS::S3::Bucket
+      Properties:
+        BucketName: ${self:custom.fileUploadBucketName}
+        AccessControl: PublicRead
+
+plugins:
+  - serverless-plugin-log
+
+hooks:
+  after:deploy:finalize:
+    - log: "Custom bucket name is: ${self:custom.fileUploadBucketName}"
