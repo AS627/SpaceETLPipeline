@@ -1,15 +1,14 @@
 {
-  "name": "s3-file-uploader",
+  "name": "SpaceDataPipeline",
   "version": "1.0.0",
-  "description": "",
+  "description": "Your project description",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "aws-sdk": "^2.1628.0",
-    "serverless": "^3.38.0"
+    "serverless": "^3.38.0",
+    "aws-sdk": "^2.814.0"
   },
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {}
 }
