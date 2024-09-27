@@ -12,3 +12,6 @@ docker compose up -d
 
 
 docker-compose down -v
+
+# System Design
+![Alt text](SpaceXPipeline.jpg)
